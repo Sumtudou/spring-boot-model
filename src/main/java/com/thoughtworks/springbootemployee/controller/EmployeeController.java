@@ -36,6 +36,7 @@ public class EmployeeController {
     @PostMapping()
     public EmployeeResponseDto addEmployee(@RequestBody @Valid EmployeeRequestDto employeeRequestDto) throws CompanyNotFoundException {
         return employeeService.addEmployee(employeeRequestDto);
+
     }
 
     @DeleteMapping("/{id}")

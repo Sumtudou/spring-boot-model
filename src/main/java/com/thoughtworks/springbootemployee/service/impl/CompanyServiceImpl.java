@@ -17,6 +17,7 @@ public class CompanyServiceImpl implements CompanyService {
     private final CompanyRepository companyRepository;
 
     public CompanyServiceImpl(CompanyRepository companyRepository) {
+        System.out.println("ggg");
         this.companyRepository = companyRepository;
     }
 
